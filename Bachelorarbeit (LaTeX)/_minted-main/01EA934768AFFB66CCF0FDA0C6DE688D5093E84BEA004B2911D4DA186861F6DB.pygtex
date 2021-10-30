@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYGZdl{} \PYG{n+nb}{cd} /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow
-\PYGZdl{} mkdir pre\PYGZhy{}trained\PYGZhy{}models scripts workspaces workspaces/training\PYGZus{}demo workspaces/training\PYGZus{}demo/annotations workspaces/training\PYGZus{}demo/exported\PYGZhy{}models workspaces/training\PYGZus{}demo/images workspaces/training\PYGZus{}demo/images/detect workspaces/training\PYGZus{}demo/images/detections workspaces/training\PYGZus{}demo/images/images\PYGZhy{}to\PYGZhy{}detect workspaces/training\PYGZus{}demo/images/test workspaces/training\PYGZus{}demo/images/train workspaces/training\PYGZus{}demo/model\PYGZhy{}config\PYGZhy{}files workspaces/training\PYGZus{}demo/trained\PYGZhy{}models \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n+nb}{cd} workspaces/training\PYGZus{}demo \PYG{o}{\PYGZam{}\PYGZam{}} touch README.md \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n+nb}{cd} /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow
-\end{Verbatim}

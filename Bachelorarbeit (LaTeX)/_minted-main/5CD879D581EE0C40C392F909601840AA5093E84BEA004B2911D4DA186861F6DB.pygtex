@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYGZdl{} wget \PYGZhy{}O /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/scripts/Demo\PYGZus{}Objekterkennung.py https://raw.githubusercontent.com/Katschka/Object\PYGZhy{}Detection\PYGZhy{}Tutorial/main/scripts/Demo\PYGZus{}Objekterkennung.py?token\PYG{o}{=}AV2PSU3AKY4VRNIBFKCL2LTBPWCZ4
-\PYGZdl{} python /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/scripts/Demo\PYGZus{}Objekterkennung.py
-\end{Verbatim}

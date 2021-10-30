@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYGZdl{} wget \PYGZhy{}O /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/workspaces/training\PYGZus{}demo/images/Trainingsdaten.zip https://github.com/Katschka/Object\PYGZhy{}Detection\PYGZhy{}Tutorial/blob/dce52e542dd97792e165843f2f020b7dcf81955a/images/sweets\PYGZpc{}20low\PYGZpc{}20resolution\PYGZpc{}20by\PYGZpc{}20Rami\PYGZpc{}20Alkhooli.zip
-\PYGZdl{} \PYG{n+nb}{cd} /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/workspaces/training\PYGZus{}demo/images \PYG{o}{\PYGZam{}\PYGZam{}} unzip Trainingsdaten.zip \PYG{o}{\PYGZam{}\PYGZam{}} rm Trainingsdaten.zip
-\end{Verbatim}

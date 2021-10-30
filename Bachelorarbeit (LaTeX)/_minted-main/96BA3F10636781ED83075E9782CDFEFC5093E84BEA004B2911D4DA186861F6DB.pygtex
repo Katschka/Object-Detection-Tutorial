@@ -1,3 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYGZdl{} trained\PYGZus{}object\PYGZus{}detection.py \PYG{o}{[}\PYGZhy{}h\PYG{o}{]} \PYG{o}{[}\PYGZhy{}f FILETYPE\PYG{o}{]} \PYG{o}{[}\PYGZhy{}i IMAGE\PYGZus{}PATH\PYG{o}{]} \PYG{o}{[}\PYGZhy{}l LABEL\PYGZus{}PATH\PYG{o}{]} \PYG{o}{[}\PYGZhy{}m MODEL\PYGZus{}PATH\PYG{o}{]}
-\end{Verbatim}

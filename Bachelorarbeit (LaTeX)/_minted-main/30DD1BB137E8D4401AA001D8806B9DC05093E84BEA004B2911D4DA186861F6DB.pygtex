@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYGZdl{} mkdir /home/\PYG{n+nv}{\PYGZdl{}USER}/Protobuf \PYG{o}{\PYGZam{}\PYGZam{}} wget \PYGZhy{}P /home/\PYG{n+nv}{\PYGZdl{}USER}/Protobuf https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc\PYGZhy{}3.17.3\PYGZhy{}linux\PYGZhy{}x86\PYGZus{}64.zip
-\PYGZdl{} \PYG{n+nb}{cd} /home/\PYG{n+nv}{\PYGZdl{}USER}/Protobuf \PYG{o}{\PYGZam{}\PYGZam{}} unzip protoc\PYGZhy{}3.17.3\PYGZhy{}linux\PYGZhy{}x86\PYGZus{}64.zip
-\end{Verbatim}

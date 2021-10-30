@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYGZdl{} wget \PYGZhy{}O /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/workspaces/training\PYGZus{}demo/images/xmls.zip https://thga.sciebo.de/s/d40zl44KJSNLxcl/download
-\PYGZdl{} \PYG{n+nb}{cd} /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/workspaces/training\PYGZus{}demo/images \PYG{o}{\PYGZam{}\PYGZam{}} unzip xmls.zip \PYG{o}{\PYGZam{}\PYGZam{}} rm xmls.zip
-\end{Verbatim}

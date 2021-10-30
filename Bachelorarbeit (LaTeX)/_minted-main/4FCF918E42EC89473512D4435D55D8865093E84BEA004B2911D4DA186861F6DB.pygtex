@@ -1,3 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYGZdl{} wget \PYGZhy{}O /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/scripts/partition\PYGZus{}dataset.py https://github.com/Katschka/Object\PYGZhy{}Detection\PYGZhy{}Tutorial/raw/main/scripts/partition\PYGZus{}dataset.py
-\end{Verbatim}
