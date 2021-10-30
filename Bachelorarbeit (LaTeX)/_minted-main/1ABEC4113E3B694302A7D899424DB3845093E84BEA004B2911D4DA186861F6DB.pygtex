@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} python /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/scripts/partition\PYGZus{}dataset.py \PYGZhy{}x \PYGZhy{}i /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/workspaces/training\PYGZus{}demo/images \PYGZhy{}r \PYG{l+m}{0}.1
+\end{Verbatim}

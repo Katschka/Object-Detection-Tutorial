@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} \PYG{n+nb}{cd} \PYGZti{}/Downloads
+\PYGZdl{} tar \PYGZhy{}xzvf cudnn\PYGZhy{}11.4\PYGZhy{}linux\PYGZhy{}x64\PYGZhy{}v8.2.2.26.tgz
+\PYGZdl{} rm cudnn\PYGZhy{}11.4\PYGZhy{}linux\PYGZhy{}x64\PYGZhy{}v8.2.2.26.tgz
+\end{Verbatim}

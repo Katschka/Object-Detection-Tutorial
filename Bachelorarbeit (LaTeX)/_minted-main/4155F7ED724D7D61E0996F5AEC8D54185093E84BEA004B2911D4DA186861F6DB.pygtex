@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+python generate\PYGZus{}tfrecord.py \PYGZhy{}x \PYG{o}{[}PATH\PYGZus{}TO\PYGZus{}IMAGES\PYGZus{}FOLDER\PYG{o}{]}/\PYG{o}{[}DATASET\PYG{o}{]} \PYGZhy{}l \PYG{o}{[}PATH\PYGZus{}TO\PYGZus{}ANNOTATIONS\PYGZus{}FOLDER\PYG{o}{]}/\PYG{o}{[}LABEL\PYGZus{}MAP.PBTXT\PYG{o}{]} \PYGZhy{}o \PYG{o}{[}PATH\PYGZus{}TO\PYGZus{}ANNOTATIONS\PYGZus{}FOLDER\PYG{o}{]}/\PYG{o}{[}DATASET\PYG{o}{]}.record
+\end{Verbatim}

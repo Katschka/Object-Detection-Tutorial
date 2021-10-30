@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} cp /home/dennis/TensorFlow/models/research/object\PYGZus{}detection/model\PYGZus{}main\PYGZus{}tf2.py /home/dennis/TensorFlow/workspaces/training\PYGZus{}demo
+\end{Verbatim}

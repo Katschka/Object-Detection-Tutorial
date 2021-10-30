@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} cp \PYGZhy{}r /usr/src/cudnn\PYGZus{}samples\PYGZus{}v8/ \PYG{n+nv}{\PYGZdl{}HOME}
+\PYGZdl{} \PYG{n+nb}{cd}  \PYG{n+nv}{\PYGZdl{}HOME}/cudnn\PYGZus{}samples\PYGZus{}v8/mnistCUDNN
+\PYGZdl{} make clean \PYG{o}{\PYGZam{}\PYGZam{}} make
+\end{Verbatim}

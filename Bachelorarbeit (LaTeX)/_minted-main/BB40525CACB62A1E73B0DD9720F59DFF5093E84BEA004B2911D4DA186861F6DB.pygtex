@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} wget \PYGZhy{}O /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/scripts/resize\PYGZus{}images.py https://thga.sciebo.de/s/XcrnifHJhqOuE7f/download
+\PYGZdl{} python /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/scripts/resize\PYGZus{}images.py \PYGZhy{}i /home/dennis/TensorFlow/workspaces/training\PYGZus{}demo/images/detect/resize \PYGZhy{}x \PYG{l+m}{640} \PYGZhy{}y \PYG{l+m}{480}
+\end{Verbatim}

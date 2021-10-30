@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} wget \PYGZhy{}O /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/workspaces/training\PYGZus{}demo/pre\PYGZhy{}trained\PYGZhy{}models/ssd\PYGZus{}resnet50\PYGZus{}v1\PYGZus{}fpn\PYGZus{}640x640\PYGZus{}coco17\PYGZus{}tpu\PYGZhy{}8/pipeline.config https://raw.githubusercontent.com/Katschka/Object\PYGZhy{}Detection\PYGZhy{}Tutorial/main/others/pipeline.config
+\end{Verbatim}

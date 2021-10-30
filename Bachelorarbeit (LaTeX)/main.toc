@@ -1,0 +1,82 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Abstract}{i}{Doc-Start}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Abbildungsverzeichnis}{vii}{Doc-Start}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Tabellenverzeichnis}{viii}{Doc-Start}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Abkürzungsverzeichnis}{ix}{Doc-Start}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Vorbereitung der Softwareumgebung}{3}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Installation der Basisprogramme}{3}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Installation der TensorFlow API und benötigter Bibliotheken}{8}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Demo der TensorFlow API mit vorgefertigtem Modell}{9}{subsection.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Training eigener Modelle}{11}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Vorbereitung des Datenraums}{11}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Vorbereitung der Datensätze}{12}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Training eines Modells}{18}{subsection.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Anwendung des trainierten Modells}{23}{subsection.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Mögliche Probleme während des Trainings}{26}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}\textit {Loss} pendelt sich nicht ein, Möglichkeit 1}{26}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}\textit {Loss} pendelt sich nicht ein, Möglichkeit 2}{26}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}\textit {Loss} zeigt \textit {nan} statt einem Wert}{27}{subsection.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Die Kostenfunktion endet mit einem Ausreißer nach oben}{27}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Möglichkeiten zur Verbesserung der Objekterkennung}{28}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Die Nutzung verschiedener Modelle}{28}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Der Einfluss der Auflösung auf die Detektion}{33}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Schlussfolgerung und Ausblick}{36}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Anlagen}{36}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Aufnahmen für die Detektion auf dem Modell unbekannten Bildern}{36}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}TensorBoard-Ausgaben für den Vergleich verschiedener Modelle}{39}{appendix.B}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C}Objekterkennung auf den Testbildern zum Vergleich der verschiedenen Modelle}{47}{appendix.C}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.1}Die Vorlagenbilder ohne Detektionen}{47}{subsection.C.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.2}Die Detektionen durch das \textit {efficientdet}-Modell}{58}{subsection.C.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.3}Die Detektionen durch das \textit {faster\_rcnn\_inception}-Modell}{69}{subsection.C.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.4}Die Detektionen durch das \textit {faster\_rcnn\_resnet50}-Modell}{80}{subsection.C.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.5}Die Detektionen durch das \textit {faster\_rcnn\_resnet101}-Modell}{91}{subsection.C.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.6}Die Detektionen durch das \textit {ssd\_mobilenet\_v1}-Modell}{102}{subsection.C.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.7}Die Detektionen durch das \textit {ssd\_mobilenet\_v2}-Modell}{113}{subsection.C.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.8}Die Detektionen durch das \textit {ssd\_resnet50}-Modell}{124}{subsection.C.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.9}Die Detektionen durch das \textit {ssd\_resnet101}-Modell}{135}{subsection.C.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D}TensorBoard-Ausgaben für das Training hochauflösender Süßigkeiten auf weißem Hintergrund}{146}{appendix.D}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E}Objekterkennung auf Testbildern für hochauflösende Süßigkeiten auf weißem Hintergrund}{146}{appendix.E}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {F}TensorBoard-Ausgaben für das Training hochauflösender Süßigkeiten auf multiplen Hintergründen}{146}{appendix.F}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {G}Objekterkennung auf Testbildern für hochauflösende Süßigkeiten auf multiplen Hintergründen}{146}{appendix.G}%

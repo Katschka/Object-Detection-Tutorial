@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} cp object\PYGZus{}detection/packages/tf2/setup.py .
+\PYGZdl{} python \PYGZhy{}m pip install \PYGZhy{}\PYGZhy{}use\PYGZhy{}feature\PYG{o}{=}\PYG{l+m}{2020}\PYGZhy{}resolver .
+\end{Verbatim}

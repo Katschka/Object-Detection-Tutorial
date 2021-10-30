@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} mkdir /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow \PYG{o}{\PYGZam{}\PYGZam{}} wget \PYGZhy{}P /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow https://github.com/tensorflow/models/archive/refs/heads/master.zip
+\PYGZdl{} \PYG{n+nb}{cd} /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow
+\PYGZdl{} unzip master.zip \PYG{o}{\PYGZam{}\PYGZam{}} mv /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/models\PYGZhy{}master /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/models \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n+nb}{cd} \PYGZti{}
+\end{Verbatim}

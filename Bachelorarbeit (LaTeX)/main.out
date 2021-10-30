@@ -1,0 +1,40 @@
+\BOOKMARK [1][-]{Doc-Start}{Abstract}{}% 1
+\BOOKMARK [1][-]{Doc-Start}{Abbildungsverzeichnis}{}% 2
+\BOOKMARK [1][-]{Doc-Start}{Tabellenverzeichnis}{}% 3
+\BOOKMARK [1][-]{Doc-Start}{Abkürzungsverzeichnis}{}% 4
+\BOOKMARK [1][-]{section.1}{Einleitung}{}% 5
+\BOOKMARK [1][-]{section.2}{Vorbereitung\040der\040Softwareumgebung}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Installation\040der\040Basisprogramme}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Installation der TensorFlow API und benötigter Bibliotheken}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{Demo\040der\040TensorFlow\040API\040mit\040vorgefertigtem\040Modell}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Training\040eigener\040Modelle}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Vorbereitung\040des\040Datenraums}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Vorbereitung der Datensätze}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Training\040eines\040Modells}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{Anwendung\040des\040trainierten\040Modells}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Mögliche Probleme während des Trainings}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Loss pendelt sich nicht ein, Möglichkeit 1}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Loss pendelt sich nicht ein, Möglichkeit 2}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Loss\040zeigt\040nan\040statt\040einem\040Wert}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.4}{Die Kostenfunktion endet mit einem Ausreißer nach oben}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Möglichkeiten zur Verbesserung der Objekterkennung}{}% 20
+\BOOKMARK [2][-]{subsection.5.1}{Die\040Nutzung\040verschiedener\040Modelle}{section.5}% 21
+\BOOKMARK [2][-]{subsection.5.2}{Der Einfluss der Auflösung auf die Detektion}{section.5}% 22
+\BOOKMARK [1][-]{section.6}{Schlussfolgerung\040und\040Ausblick}{}% 23
+\BOOKMARK [1][-]{section.6}{Anlagen}{}% 24
+\BOOKMARK [1][-]{appendix.A}{Aufnahmen für die Detektion auf dem Modell unbekannten Bildern}{}% 25
+\BOOKMARK [1][-]{appendix.B}{TensorBoard-Ausgaben für den Vergleich verschiedener Modelle}{}% 26
+\BOOKMARK [1][-]{appendix.C}{Objekterkennung\040auf\040den\040Testbildern\040zum\040Vergleich\040der\040verschiedenen\040Modelle}{}% 27
+\BOOKMARK [2][-]{subsection.C.1}{Die\040Vorlagenbilder\040ohne\040Detektionen}{appendix.C}% 28
+\BOOKMARK [2][-]{subsection.C.2}{Die\040Detektionen\040durch\040das\040efficientdet-Modell}{appendix.C}% 29
+\BOOKMARK [2][-]{subsection.C.3}{Die\040Detektionen\040durch\040das\040faster_rcnn_inception-Modell}{appendix.C}% 30
+\BOOKMARK [2][-]{subsection.C.4}{Die\040Detektionen\040durch\040das\040faster_rcnn_resnet50-Modell}{appendix.C}% 31
+\BOOKMARK [2][-]{subsection.C.5}{Die\040Detektionen\040durch\040das\040faster_rcnn_resnet101-Modell}{appendix.C}% 32
+\BOOKMARK [2][-]{subsection.C.6}{Die\040Detektionen\040durch\040das\040ssd_mobilenet_v1-Modell}{appendix.C}% 33
+\BOOKMARK [2][-]{subsection.C.7}{Die\040Detektionen\040durch\040das\040ssd_mobilenet_v2-Modell}{appendix.C}% 34
+\BOOKMARK [2][-]{subsection.C.8}{Die\040Detektionen\040durch\040das\040ssd_resnet50-Modell}{appendix.C}% 35
+\BOOKMARK [2][-]{subsection.C.9}{Die\040Detektionen\040durch\040das\040ssd_resnet101-Modell}{appendix.C}% 36
+\BOOKMARK [1][-]{appendix.D}{TensorBoard-Ausgaben für das Training hochauflösender Süßigkeiten auf weißem Hintergrund}{}% 37
+\BOOKMARK [1][-]{appendix.E}{Objekterkennung auf Testbildern für hochauflösende Süßigkeiten auf weißem Hintergrund}{}% 38
+\BOOKMARK [1][-]{appendix.F}{TensorBoard-Ausgaben für das Training hochauflösender Süßigkeiten auf multiplen Hintergründen}{}% 39
+\BOOKMARK [1][-]{appendix.G}{Objekterkennung auf Testbildern für hochauflösende Süßigkeiten auf multiplen Hintergründen}{}% 40

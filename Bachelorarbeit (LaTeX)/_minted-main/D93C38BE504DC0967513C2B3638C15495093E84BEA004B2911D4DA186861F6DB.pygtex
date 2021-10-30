@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} protoc object\PYGZus{}detection/protos/*.proto \PYGZhy{}\PYGZhy{}python\PYGZus{}out\PYG{o}{=}.
+\end{Verbatim}

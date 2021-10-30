@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} sudo apt\PYGZhy{}get update
+\PYGZdl{} sudo apt install build\PYGZhy{}essential
+\PYGZdl{} sudo ubuntu\PYGZhy{}drivers autoinstall
+\PYGZdl{} sudo reboot
+\end{Verbatim}

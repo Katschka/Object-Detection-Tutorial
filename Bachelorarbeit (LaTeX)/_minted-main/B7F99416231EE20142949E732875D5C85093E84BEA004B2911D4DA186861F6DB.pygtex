@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} \PYG{n+nb}{cd} /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/workspaces/training\PYGZus{}demo/pre\PYGZhy{}trained\PYGZhy{}models/ssd\PYGZus{}resnet50\PYGZus{}v1\PYGZus{}fpn\PYGZus{}640x640\PYGZus{}coco17\PYGZus{}tpu\PYGZhy{}8
+\PYGZdl{} nano \PYGZhy{}l pipeline.config
+\end{Verbatim}

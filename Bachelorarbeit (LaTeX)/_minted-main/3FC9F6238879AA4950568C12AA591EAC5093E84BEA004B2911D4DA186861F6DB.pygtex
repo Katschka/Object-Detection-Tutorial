@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} \PYG{n+nb}{cd} /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/workspaces/training\PYGZus{}demo
+\PYGZdl{} python exporter\PYGZus{}main\PYGZus{}v2.py \PYGZhy{}\PYGZhy{}input\PYGZus{}type image\PYGZus{}tensor \PYGZhy{}\PYGZhy{}pipeline\PYGZus{}config\PYGZus{}path pre\PYGZhy{}trained\PYGZhy{}models/ssd\PYGZus{}resnet50\PYGZus{}v1\PYGZus{}fpn\PYGZus{}640x640\PYGZus{}coco17\PYGZus{}tpu\PYGZhy{}8/pipeline.config \PYGZhy{}\PYGZhy{}trained\PYGZus{}checkpoint\PYGZus{}dir models/ssd\PYGZus{}resnet50\PYGZus{}v1\PYGZus{}fpn\PYGZus{}640x640\PYGZus{}coco17\PYGZus{}tpu\PYGZhy{}8 \PYGZhy{}\PYGZhy{}output\PYGZus{}directory exported\PYGZhy{}models/demo\PYGZus{}model
+\end{Verbatim}

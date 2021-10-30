@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} sudo systemctl \PYG{n+nb}{enable} nvidia\PYGZhy{}persistenced
+\end{Verbatim}

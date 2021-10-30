@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} \PYG{n+nb}{cd} /home/dennis/TensorFlow/workspaces/training\PYGZus{}demo
+\PYGZdl{} python model\PYGZus{}main\PYGZus{}tf2.py \PYGZhy{}\PYGZhy{}model\PYGZus{}dir\PYG{o}{=}models/ssd\PYGZus{}resnet50\PYGZus{}v1\PYGZus{}fpn\PYGZus{}640x640\PYGZus{}coco17\PYGZus{}tpu\PYGZhy{}8 \PYGZhy{}\PYGZhy{}pipeline\PYGZus{}config\PYGZus{}path\PYG{o}{=}pre\PYGZhy{}trained\PYGZhy{}models/ssd\PYGZus{}resnet50\PYGZus{}v1\PYGZus{}fpn\PYGZus{}640x640\PYGZus{}coco17\PYGZus{}tpu\PYGZhy{}8/pipeline.config
+\end{Verbatim}

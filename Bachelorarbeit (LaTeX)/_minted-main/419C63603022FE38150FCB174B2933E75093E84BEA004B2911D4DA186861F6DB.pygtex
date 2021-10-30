@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} conda create \PYGZhy{}n ai\PYGZhy{}ve pip \PYG{n+nv}{python}\PYG{o}{=}\PYG{l+m}{3}.9
+\PYGZdl{} conda activate ai\PYGZhy{}ve
+\PYGZdl{} conda update \PYGZhy{}\PYGZhy{}all \PYGZhy{}\PYGZhy{}yes
+\end{Verbatim}

@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} sudo apt\PYGZhy{}get install linux\PYGZhy{}headers\PYGZhy{}\PYG{k}{\PYGZdl{}(}uname \PYGZhy{}r\PYG{k}{)}\PYGZca{}\PYGZca{}I
+\PYGZdl{} wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86\PYGZus{}64/cuda\PYGZhy{}ubuntu2004.pin
+\PYGZdl{} sudo mv cuda\PYGZhy{}ubuntu2004.pin /etc/apt/preferences.d/cuda\PYGZhy{}repository\PYGZhy{}pin\PYGZhy{}600
+\PYGZdl{} sudo apt\PYGZhy{}key adv \PYGZhy{}\PYGZhy{}fetch\PYGZhy{}keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86\PYGZus{}64/7fa2af80.pub
+\PYGZdl{} sudo add\PYGZhy{}apt\PYGZhy{}repository \PYG{l+s+s2}{\PYGZdq{}deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86\PYGZus{}64/ /\PYGZdq{}}
+\PYGZdl{} sudo apt\PYGZhy{}get update
+\PYGZdl{} sudo apt\PYGZhy{}get \PYGZhy{}y install cuda
+\end{Verbatim}

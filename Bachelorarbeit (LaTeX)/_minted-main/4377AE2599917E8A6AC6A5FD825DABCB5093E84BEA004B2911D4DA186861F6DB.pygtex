@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} wget \PYGZhy{}O /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/scripts/trained\PYGZus{}object\PYGZus{}detection.py https://github.com/Katschka/Object\PYGZhy{}Detection\PYGZhy{}Tutorial/raw/main/scripts/trained\PYGZus{}object\PYGZus{}detection.py
+\PYGZdl{} python /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/scripts/trained\PYGZus{}object\PYGZus{}detection.py
+\end{Verbatim}

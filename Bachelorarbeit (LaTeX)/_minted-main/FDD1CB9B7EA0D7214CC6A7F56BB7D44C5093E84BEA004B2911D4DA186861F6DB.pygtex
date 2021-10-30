@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} pip3 install \PYGZhy{}\PYGZhy{}user pyqt5
+\PYGZdl{} sudo apt\PYGZhy{}get install python3\PYGZhy{}pyqt5
+\PYGZdl{} sudo apt\PYGZhy{}get install pyqt5\PYGZhy{}dev\PYGZhy{}tools
+\PYGZdl{} sudo apt\PYGZhy{}get install qttools5\PYGZhy{}dev\PYGZhy{}tools
+\end{Verbatim}

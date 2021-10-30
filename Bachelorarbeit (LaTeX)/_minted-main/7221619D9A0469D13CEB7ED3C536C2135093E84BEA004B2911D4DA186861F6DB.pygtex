@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} cp /home/\PYG{n+nv}{\PYGZdl{}USER}/anaconda3/envs/ai\PYGZhy{}ve/lib/python3.9/site\PYGZhy{}packages/tensorflow/python/ops/array\PYGZus{}ops.py /home/\PYG{n+nv}{\PYGZdl{}USER}/anaconda3/envs/ai\PYGZhy{}ve/lib/python3.9/site\PYGZhy{}packages/tensorflow/python/ops/backup\PYGZus{}array\PYGZus{}ops.py
+\PYGZdl{} wget \PYGZhy{}O /home/\PYG{n+nv}{\PYGZdl{}USER}/anaconda3/envs/ai\PYGZhy{}ve/lib/python3.9/site\PYGZhy{}packages/tensorflow/python/ops/array\PYGZus{}ops.py https://thga.sciebo.de/s/wEgxcdDcQcODTLK/download
+\end{Verbatim}

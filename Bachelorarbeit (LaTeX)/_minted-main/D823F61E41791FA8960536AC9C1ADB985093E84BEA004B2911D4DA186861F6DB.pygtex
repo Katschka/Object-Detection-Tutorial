@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} CUDA related exports}
+\PYG{n+nb}{export} \PYG{n+nv}{PATH}\PYG{o}{=}/usr/local/cuda\PYGZhy{}11.4/bin\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{PATH}\PYG{p}{:+:}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{PATH}\PYG{l+s+si}{\PYGZcb{}\PYGZcb{}}
+\PYG{n+nb}{export} \PYG{n+nv}{LD\PYGZus{}LIBRARY\PYGZus{}PATH}\PYG{o}{=}/usr/local/cuda\PYGZhy{}11.2/lib64\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{LD\PYGZus{}LIBRARY\PYGZus{}PATH}\PYG{p}{:+:}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{LD\PYGZus{}LIBRARY\PYGZus{}PATH}\PYG{l+s+si}{\PYGZcb{}\PYGZcb{}}
+\PYG{n+nb}{export} \PYG{n+nv}{PATH}\PYG{o}{=}/home/\PYG{n+nv}{\PYGZdl{}USER}/Protobuf/bin\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{PATH}\PYG{p}{:+:}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{PATH}\PYG{l+s+si}{\PYGZcb{}\PYGZcb{}}
+\end{Verbatim}

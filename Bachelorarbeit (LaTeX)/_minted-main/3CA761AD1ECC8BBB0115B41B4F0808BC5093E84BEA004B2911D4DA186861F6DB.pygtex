@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} wget \PYGZhy{}O /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/scripts/generate\PYGZus{}tfrecord.py https://raw.githubusercontent.com/Katschka/Object\PYGZhy{}Detection\PYGZhy{}Tutorial/main/scripts/generate\PYGZus{}tfrecord.py
+\end{Verbatim}

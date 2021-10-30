@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} wget \PYGZhy{}O /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/workspaces/training\PYGZus{}demo/annotations/label\PYGZus{}map.pbtxt https://raw.githubusercontent.com/Katschka/Object\PYGZhy{}Detection\PYGZhy{}Tutorial/main/others/label\PYGZus{}map.pbtxt
+\end{Verbatim}

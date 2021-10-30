@@ -1,0 +1,244 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Aktivierte virtuelle Umgebung \textit {ai-ve} vom Benutzer \textit {Dennis} auf dem Computer \textit {Renner}\relax }}{5}{figure.caption.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces Erfolgreich installierte TensorFlow API\relax }}{10}{figure.caption.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces Die verwendete Ordnerstruktur\relax }}{11}{figure.caption.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces Das Programm \textit {labelImg} mit geöffnetem Ordner der Trainingsbilder\relax }}{14}{figure.caption.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5}{\ignorespaces Bild mit gelabelten Objekten\relax }}{15}{figure.caption.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6}{\ignorespaces Aktiviertes TensorBoard\relax }}{22}{figure.caption.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7}{\ignorespaces Ausgabe des trainierten Modells für fünf zufällig ausgewählte Bilder\relax }}{24}{figure.caption.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8}{\ignorespaces Einstellungen der Lernrate für das \textit {efficientdet\_d1}-Modell\relax }}{27}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9}{\ignorespaces TensorBoard Ausgabe für \textit {Loss/regularization\_loss nan}\relax }}{28}{figure.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10}{\ignorespaces Anpassung der Regularisierung in \textit {pipeline.config}\relax }}{28}{figure.caption.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11}{\ignorespaces Originalbild auf neutralem Hintergrund (Papier)\relax }}{36}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12}{\ignorespaces Bild nach Verkleinerung und Detektion auf neutralem Hintergrund (Papier)\relax }}{36}{figure.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13}{\ignorespaces Originalbild auf Holztisch\relax }}{37}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14}{\ignorespaces Bild nach Verkleinerung und Detektion auf Holztisch\relax }}{37}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15}{\ignorespaces TensorBoard-Ausgabe für das Modell \textit {efficientdet\_d1}\relax }}{39}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {16}{\ignorespaces TensorBoard-Ausgabe für das Modell \textit {faster\_rcnn\_inception\_resnet\_v2}\relax }}{40}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {17}{\ignorespaces TensorBoard-Ausgabe für das Modell \textit {faster\_rcnn\_resnet50\_v1}\relax }}{41}{figure.caption.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {18}{\ignorespaces TensorBoard-Ausgabe für das Modell \textit {faster\_rcnn\_resnet101\_v1}\relax }}{42}{figure.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {19}{\ignorespaces TensorBoard-Ausgabe für das Modell \textit {ssd\_mobilenet\_v1\_fpn}\relax }}{43}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {20}{\ignorespaces TensorBoard-Ausgabe für das Modell \textit {ssd\_mobilenet\_v2\_fpnlite}\relax }}{44}{figure.caption.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {21}{\ignorespaces TensorBoard-Ausgabe für das Modell \textit {ssd\_resnet50\_v1\_fpn}\relax }}{45}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {22}{\ignorespaces TensorBoard-Ausgabe für das Modell \textit {ssd\_resnet101\_v1\_fpn}\relax }}{46}{figure.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {23}{\ignorespaces Mit trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{47}{figure.caption.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {24}{\ignorespaces Mit trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{48}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {25}{\ignorespaces Mit trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{49}{figure.caption.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {26}{\ignorespaces Nicht trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{50}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {27}{\ignorespaces Nicht trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{51}{figure.caption.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {28}{\ignorespaces Nicht trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{52}{figure.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {29}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf weißem Hintergrund\relax }}{53}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {30}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Fußmatte als Hintergrund\relax }}{54}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {31}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Granit als Hintergrund\relax }}{55}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {32}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf marmoriertem Hintergrund\relax }}{56}{figure.caption.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {33}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Holztisch als Hintergrund\relax }}{57}{figure.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {34}{\ignorespaces Mit trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{58}{figure.caption.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {35}{\ignorespaces Mit trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{59}{figure.caption.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {36}{\ignorespaces Mit trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{60}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {37}{\ignorespaces Nicht trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{61}{figure.caption.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {38}{\ignorespaces Nicht trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{62}{figure.caption.41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {39}{\ignorespaces Nicht trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{63}{figure.caption.42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {40}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf weißem Hintergrund\relax }}{64}{figure.caption.43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {41}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Fußmatte als Hintergrund\relax }}{65}{figure.caption.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {42}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Granit als Hintergrund\relax }}{66}{figure.caption.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {43}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf marmoriertem Hintergrund\relax }}{67}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {44}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Holztisch als Hintergrund\relax }}{68}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {45}{\ignorespaces Mit trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{69}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {46}{\ignorespaces Mit trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{70}{figure.caption.49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {47}{\ignorespaces Mit trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{71}{figure.caption.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {48}{\ignorespaces Nicht trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{72}{figure.caption.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {49}{\ignorespaces Nicht trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{73}{figure.caption.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {50}{\ignorespaces Nicht trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{74}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {51}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf weißem Hintergrund\relax }}{75}{figure.caption.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {52}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Fußmatte als Hintergrund\relax }}{76}{figure.caption.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {53}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Granit als Hintergrund\relax }}{77}{figure.caption.56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {54}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf marmoriertem Hintergrund\relax }}{78}{figure.caption.57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {55}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Holztisch als Hintergrund\relax }}{79}{figure.caption.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {56}{\ignorespaces Mit trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{80}{figure.caption.59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {57}{\ignorespaces Mit trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{81}{figure.caption.60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {58}{\ignorespaces Mit trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{82}{figure.caption.61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {59}{\ignorespaces Nicht trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{83}{figure.caption.62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {60}{\ignorespaces Nicht trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{84}{figure.caption.63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {61}{\ignorespaces Nicht trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{85}{figure.caption.64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {62}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf weißem Hintergrund\relax }}{86}{figure.caption.65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {63}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Fußmatte als Hintergrund\relax }}{87}{figure.caption.66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {64}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Granit als Hintergrund\relax }}{88}{figure.caption.67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {65}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf marmoriertem Hintergrund\relax }}{89}{figure.caption.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {66}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Holztisch als Hintergrund\relax }}{90}{figure.caption.69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {67}{\ignorespaces Mit trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{91}{figure.caption.70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {68}{\ignorespaces Mit trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{92}{figure.caption.71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {69}{\ignorespaces Mit trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{93}{figure.caption.72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {70}{\ignorespaces Nicht trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{94}{figure.caption.73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {71}{\ignorespaces Nicht trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{95}{figure.caption.74}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {72}{\ignorespaces Nicht trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{96}{figure.caption.75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {73}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf weißem Hintergrund\relax }}{97}{figure.caption.76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {74}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Fußmatte als Hintergrund\relax }}{98}{figure.caption.77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {75}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Granit als Hintergrund\relax }}{99}{figure.caption.78}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {76}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf marmoriertem Hintergrund\relax }}{100}{figure.caption.79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {77}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Holztisch als Hintergrund\relax }}{101}{figure.caption.80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {78}{\ignorespaces Mit trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{102}{figure.caption.81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {79}{\ignorespaces Mit trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{103}{figure.caption.82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {80}{\ignorespaces Mit trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{104}{figure.caption.83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {81}{\ignorespaces Nicht trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{105}{figure.caption.84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {82}{\ignorespaces Nicht trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{106}{figure.caption.85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {83}{\ignorespaces Nicht trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{107}{figure.caption.86}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {84}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf weißem Hintergrund\relax }}{108}{figure.caption.87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {85}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Fußmatte als Hintergrund\relax }}{109}{figure.caption.88}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {86}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Granit als Hintergrund\relax }}{110}{figure.caption.89}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {87}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf marmoriertem Hintergrund\relax }}{111}{figure.caption.90}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {88}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Holztisch als Hintergrund\relax }}{112}{figure.caption.91}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {89}{\ignorespaces Mit trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{113}{figure.caption.92}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {90}{\ignorespaces Mit trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{114}{figure.caption.93}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {91}{\ignorespaces Mit trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{115}{figure.caption.94}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {92}{\ignorespaces Nicht trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{116}{figure.caption.95}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {93}{\ignorespaces Nicht trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{117}{figure.caption.96}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {94}{\ignorespaces Nicht trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{118}{figure.caption.97}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {95}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf weißem Hintergrund\relax }}{119}{figure.caption.98}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {96}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Fußmatte als Hintergrund\relax }}{120}{figure.caption.99}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {97}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Granit als Hintergrund\relax }}{121}{figure.caption.100}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {98}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf marmoriertem Hintergrund\relax }}{122}{figure.caption.101}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {99}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Holztisch als Hintergrund\relax }}{123}{figure.caption.102}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {100}{\ignorespaces Mit trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{124}{figure.caption.103}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {101}{\ignorespaces Mit trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{125}{figure.caption.104}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {102}{\ignorespaces Mit trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{126}{figure.caption.105}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {103}{\ignorespaces Nicht trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{127}{figure.caption.106}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {104}{\ignorespaces Nicht trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{128}{figure.caption.107}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {105}{\ignorespaces Nicht trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{129}{figure.caption.108}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {106}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf weißem Hintergrund\relax }}{130}{figure.caption.109}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {107}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Fußmatte als Hintergrund\relax }}{131}{figure.caption.110}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {108}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Granit als Hintergrund\relax }}{132}{figure.caption.111}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {109}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf marmoriertem Hintergrund\relax }}{133}{figure.caption.112}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {110}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Holztisch als Hintergrund\relax }}{134}{figure.caption.113}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {111}{\ignorespaces Mit trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{135}{figure.caption.114}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {112}{\ignorespaces Mit trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{136}{figure.caption.115}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {113}{\ignorespaces Mit trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{137}{figure.caption.116}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {114}{\ignorespaces Nicht trainiertes Bild 1 aus dem Datensatz mit niedriger Auflösung\relax }}{138}{figure.caption.117}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {115}{\ignorespaces Nicht trainiertes Bild 2 aus dem Datensatz mit niedriger Auflösung\relax }}{139}{figure.caption.118}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {116}{\ignorespaces Nicht trainiertes Bild 3 aus dem Datensatz mit niedriger Auflösung\relax }}{140}{figure.caption.119}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {117}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf weißem Hintergrund\relax }}{141}{figure.caption.120}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {118}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Fußmatte als Hintergrund\relax }}{142}{figure.caption.121}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {119}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Granit als Hintergrund\relax }}{143}{figure.caption.122}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {120}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf marmoriertem Hintergrund\relax }}{144}{figure.caption.123}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {121}{\ignorespaces Nicht trainiertes Bild mit hoher Auflösung auf Holztisch als Hintergrund\relax }}{145}{figure.caption.124}%

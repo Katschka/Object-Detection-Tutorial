@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} mkdir /home/\PYG{n+nv}{\PYGZdl{}USER}/cocoapi \PYG{o}{\PYGZam{}\PYGZam{}} wget \PYGZhy{}P /home/\PYG{n+nv}{\PYGZdl{}USER}/cocoapi https://github.com/cocodataset/cocoapi/archive/refs/heads/master.zip
+\PYGZdl{} \PYG{n+nb}{cd} /home/\PYG{n+nv}{\PYGZdl{}USER}/cocoapi \PYG{o}{\PYGZam{}\PYGZam{}} unzip master.zip
+\PYGZdl{} cp \PYGZhy{}r cocoapi\PYGZhy{}master/PythonAPI/pycocotools /home/\PYG{n+nv}{\PYGZdl{}USER}/TensorFlow/models/research
+\end{Verbatim}
