@@ -1,0 +1,8 @@
+sudo apt-get update
+sudo apt install build-essential
+sudo ubuntu-drivers autoinstall 
+sudo reboot
+
+python3.x -V
+
+sudo apt-get install python3.x
