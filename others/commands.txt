@@ -6,3 +6,145 @@ sudo reboot
 python3.x -V
 
 sudo apt-get install python3.x
+
+wget /tmp https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+bash /tmp/Anaconda3-2021.05-Linux-x86_64.sh
+
+conda create -n ai-ve pip python=3.9
+conda activate ai-ve
+conda update --all --yes
+
+pip install --ignore-installed --upgrade tensorflow==2.5.0
+
+python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+
+sudo apt-get install linux-headers-$(uname -r)	
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/7fa2af80.pub
+sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
+sudo apt-get update
+sudo apt-get -y install cuda
+
+nano ~/.bashrc
+
+# CUDA related exports
+export PATH=/usr/local/cuda-11.4/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export PATH=/home/$USER/Protobuf/bin${PATH:+:${PATH}}
+
+nvidia-smi
+
+nvcc -V
+
+systemctl status nvidia-persistenced
+
+sudo systemctl enable nvidia-persistenced
+
+cd ~/Downloads
+tar -xzvf cudnn-11.4-linux-x64-v8.2.2.26.tgz
+rm cudnn-11.4-linux-x64-v8.2.2.26.tgz
+
+sudo cp cuda/include/cudnn*.h /usr/local/cuda/include 
+sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda/lib64 
+sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
+
+python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+
+cp -r /usr/src/cudnn_samples_v8/ $HOME
+cd  $HOME/cudnn_samples_v8/mnistCUDNN
+make clean && make
+
+sudo apt-get install libfreeimage3 libfreeimage-dev
+
+./mnistCUDNN
+
+mkdir /home/$USER/TensorFlow && wget -P /home/$USER/TensorFlow https://github.com/tensorflow/models/archive/refs/heads/master.zip
+cd /home/$USER/TensorFlow
+unzip master.zip && mv /home/$USER/TensorFlow/models-master /home/$USER/TensorFlow/models && cd ~
+
+mkdir /home/$USER/Protobuf && wget -P /home/$USER/Protobuf https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-linux-x86_64.zip
+cd /home/$USER/Protobuf && unzip protoc-3.17.3-linux-x86_64.zip
+
+cd /home/$USER/TensorFlow/models/research
+
+protoc object_detection/protos/*.proto --python_out=.
+
+mkdir /home/$USER/cocoapi && wget -P /home/$USER/cocoapi https://github.com/cocodataset/cocoapi/archive/refs/heads/master.zip
+cd /home/$USER/cocoapi && unzip master.zip
+cp -r cocoapi-master/PythonAPI/pycocotools /home/$USER/TensorFlow/models/research
+
+cd /home/$USER/TensorFlow/models/research
+
+cp object_detection/packages/tf2/setup.py
+python -m pip install --use-feature=2020-resolver
+
+python object_detection/builders/model_builder_tf2_test.py
+
+pip3 install --user pyqt5  
+sudo apt-get install python3-pyqt5  
+sudo apt-get install pyqt5-dev-tools
+sudo apt-get install qttools5-dev-tools
+
+wget -O /home/$USER/TensorFlow/scripts/Demo_Objekterkennung.py https://raw.githubusercontent.com/Katschka/Object-Detection-Tutorial/main/scripts/Demo_Objekterkennung.py?token=AV2PSU3AKY4VRNIBFKCL2LTBPWCZ4
+python /home/$USER/TensorFlow/scripts/Demo_Objekterkennung.py
+
+cd /home/$USER/TensorFlow
+mkdir pre-trained-models scripts workspaces workspaces/training_demo workspaces/training_demo/annotations workspaces/training_demo/exported-models workspaces/training_demo/images workspaces/training_demo/images/detect workspaces/training_demo/images/detections workspaces/training_demo/images/images-to-detect workspaces/training_demo/images/test workspaces/training_demo/images/train workspaces/training_demo/model-config-files workspaces/training_demo/trained-models && cd workspaces/training_demo && touch README.md && cd /home/$USER/TensorFlow
+
+pip install scikit-image
+
+wget -O /home/$USER/TensorFlow/scripts/resize_images.py https://github.com/Katschka/Object-Detection-Tutorial/raw/main/scripts/resize_images.py
+
+wget -O /home/$USER/TensorFlow/workspaces/training_demo/images/Trainingsdaten.zip https://github.com/Katschka/Object-Detection-Tutorial/blob/dce52e542dd97792e165843f2f020b7dcf81955a/images/sweets%20low%20resolution%20by%20Rami%20Alkhooli.zip
+cd /home/$USER/TensorFlow/workspaces/training_demo/images && unzip Trainingsdaten.zip && rm Trainingsdaten.zip
+
+pip install labelImg
+
+labelImg
+
+labelImg /home/$USER/TensorFlow/workspaces/training_demo/images
+
+wget -O /home/$USER/TensorFlow/workspaces/training_demo/images/xmls.zip https://github.com/Katschka/Object-Detection-Tutorial/raw/main/others/xmls.zip
+cd /home/$USER/TensorFlow/workspaces/training_demo/images && unzip xmls.zip && rm xmls.zip
+
+wget -O /home/$USER/TensorFlow/scripts/partition_dataset.py https://github.com/Katschka/Object-Detection-Tutorial/raw/main/scripts/partition_dataset.py
+
+python /home/$USER/TensorFlow/scripts/partition_dataset.py -x -i /home/$USER/TensorFlow/workspaces/training_demo/images -r 0.1
+
+wget -O /home/$USER/TensorFlow/workspaces/training_demo/annotations/label_map.pbtxt https://raw.githubusercontent.com/Katschka/Object-Detection-Tutorial/main/others/label_map.pbtxt
+
+wget -O /home/$USER/TensorFlow/scripts/generate_tfrecord.py https://raw.githubusercontent.com/Katschka/Object-Detection-Tutorial/main/scripts/generate_tfrecord.py
+
+python /home/$USER/TensorFlow/scripts/generate_tfrecord.py -x /home/$USER/TensorFlow/workspaces/training_demo/images/train -l /home/$USER/TensorFlow/workspaces/training_demo/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/training_demo/annotations/train.record
+python /home/$USER/TensorFlow/scripts/generate_tfrecord.py -x /home/$USER/TensorFlow/workspaces/training_demo/images/test -l /home/$USER/TensorFlow/workspaces/training_demo/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/training_demo/annotations/test.record
+
+cd ~/Downloads
+wget http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8.tar.gz
+tar -zxf ssd_resnet50_v1_fpn_640x640_coco17_tpu-8.tar.gz -C /home/$USER/TensorFlow/workspaces/training_demo/pre-trained-models
+rm ssd_resnet50_v1_fpn_640x640_coco17_tpu-8.tar.gz
+
+cp /home/dennis/TensorFlow/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config /home/dennis/TensorFlow/workspaces/training_demo/model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
+cd /home/$USER/TensorFlow/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
+nano -l pipeline.config
+
+wget -O /home/$USER/TensorFlow/workspaces/training_demo/model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config https://raw.githubusercontent.com/Katschka/Object-Detection-Tutorial/main/others/pipeline.config
+
+cp /home/dennis/TensorFlow/models/research/object_detection/model_main_tf2.py /home/dennis/TensorFlow/workspaces/training_demo
+
+cd /home/dennis/TensorFlow/workspaces/training_demo
+python model_main_tf2.py --model_dir=trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8 --pipeline_config_path=model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config
+
+cp /home/$USER/anaconda3/envs/ai-ve/lib/python3.9/site-packages/tensorflow/python/ops/array_ops.py /home/$USER/anaconda3/envs/ai-ve/lib/python3.9/site-packages/tensorflow/python/ops/backup_array_ops.py
+wget -O /home/$USER/anaconda3/envs/ai-ve/lib/python3.9/site-packages/tensorflow/python/ops/array_ops.py https://github.com/Katschka/Object-Detection-Tutorial/raw/main/others/array_ops.py
+
+cd /home/$USER/TensorFlow/workspaces/training_demo
+tensorboard --logdir=trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
+
+cp /home/dennis/TensorFlow/models/research/object_detection/exporter_main_v2.py /home/dennis/TensorFlow/workspaces/training_demo
+
+cd /home/$USER/TensorFlow/workspaces/training_demo
+python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8 --output_directory exported-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
+
+wget -O /home/$USER/TensorFlow/scripts/trained_object_detection.py https://github.com/Katschka/Object-Detection-Tutorial/raw/main/scripts/trained_object_detection.py
+python /home/$USER/TensorFlow/scripts/trained_object_detection.py
