@@ -148,3 +148,5 @@ python exporter_main_v2.py --input_type image_tensor --pipeline_config_path mode
 
 wget -O /home/$USER/TensorFlow/scripts/trained_object_detection.py https://github.com/Katschka/Object-Detection-Tutorial/raw/main/scripts/trained_object_detection.py
 python /home/$USER/TensorFlow/scripts/trained_object_detection.py
+
+python /home/$USER/TensorFlow/scripts/trained_object_detection.py -f jpg -i /home/$USER/TensorFlow/workspaces/training_demo/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/training_demo/annotations/label_map.pbtxt -m /home/$USER/TensorFlow/workspaces/training_demo/exported-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/saved_model
