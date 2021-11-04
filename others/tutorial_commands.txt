@@ -116,6 +116,8 @@ wget -O /home/$USER/TensorFlow/workspaces/training_demo/annotations/label_map.pb
 
 wget -O /home/$USER/TensorFlow/scripts/generate_tfrecord.py https://raw.githubusercontent.com/Katschka/Object-Detection-Tutorial/main/scripts/generate_tfrecord.py
 
+conda install pandas
+
 python /home/$USER/TensorFlow/scripts/generate_tfrecord.py -x /home/$USER/TensorFlow/workspaces/training_demo/images/train -l /home/$USER/TensorFlow/workspaces/training_demo/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/training_demo/annotations/train.record
 python /home/$USER/TensorFlow/scripts/generate_tfrecord.py -x /home/$USER/TensorFlow/workspaces/training_demo/images/test -l /home/$USER/TensorFlow/workspaces/training_demo/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/training_demo/annotations/test.record
 
