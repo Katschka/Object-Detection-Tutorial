@@ -1,34 +1,19 @@
 item {
     id: 1
-    name: 'Dübel'
-}
-
-item {
-    id: 2
-    name: 'Schraube'
-}
-
-item {
-    id: 3
-    name: 'Nagel'
-}
-
-item {
-    id: 4
     name: 'Zange'
 }
 
 item {
-    id: 5
+    id: 2
     name: 'Seitenschneider'
 }
 
 item {
-    id: 6
+    id: 3
     name: 'Schraubendreher'
 }
 
 item {
-    id: 7
+    id: 4
     name: 'Inbusschlüssel'
 }
