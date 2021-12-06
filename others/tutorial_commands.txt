@@ -123,18 +123,18 @@ python /home/$USER/TensorFlow/scripts/generate_tfrecord.py -x /home/$USER/Tensor
 
 cd ~/Downloads
 wget http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8.tar.gz
-tar -zxf ssd_resnet50_v1_fpn_640x640_coco17_tpu-8.tar.gz -C /home/$USER/TensorFlow/workspaces/training_demo/pre-trained-models
+tar -zxf ssd_resnet50_v1_fpn_640x640_coco17_tpu-8.tar.gz -C /home/$USER/TensorFlow/pre-trained-models
 rm ssd_resnet50_v1_fpn_640x640_coco17_tpu-8.tar.gz
 
-cp /home/dennis/TensorFlow/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config /home/dennis/TensorFlow/workspaces/training_demo/model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
-cd /home/$USER/TensorFlow/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
-nano -l pipeline.config
+cp /home/$USER/TensorFlow/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config /home/$USER/TensorFlow/workspaces/training_demo/model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
+cd /home/$USER/TensorFlow/workspaces/training_demo/model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
+nano pipeline.config
 
 wget -O /home/$USER/TensorFlow/workspaces/training_demo/model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config https://raw.githubusercontent.com/Katschka/Object-Detection-Tutorial/main/others/pipeline.config
 
-cp /home/dennis/TensorFlow/models/research/object_detection/model_main_tf2.py /home/dennis/TensorFlow/workspaces/training_demo
+cp /home/$USER/TensorFlow/models/research/object_detection/model_main_tf2.py /home/$USER/TensorFlow/workspaces/training_demo
 
-cd /home/dennis/TensorFlow/workspaces/training_demo
+cd /home/$USER/TensorFlow/workspaces/training_demo
 python model_main_tf2.py --model_dir=trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8 --pipeline_config_path=model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config
 
 cp /home/$USER/anaconda3/envs/ai-ve/lib/python3.9/site-packages/tensorflow/python/ops/array_ops.py /home/$USER/anaconda3/envs/ai-ve/lib/python3.9/site-packages/tensorflow/python/ops/backup_array_ops.py
@@ -143,7 +143,7 @@ wget -O /home/$USER/anaconda3/envs/ai-ve/lib/python3.9/site-packages/tensorflow/
 cd /home/$USER/TensorFlow/workspaces/training_demo
 tensorboard --logdir=trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
 
-cp /home/dennis/TensorFlow/models/research/object_detection/exporter_main_v2.py /home/dennis/TensorFlow/workspaces/training_demo
+cp /home/$USER/TensorFlow/models/research/object_detection/exporter_main_v2.py /home/$USER/TensorFlow/workspaces/training_demo
 
 cd /home/$USER/TensorFlow/workspaces/training_demo
 python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8 --output_directory exported-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
