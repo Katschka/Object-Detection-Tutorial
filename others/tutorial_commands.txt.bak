@@ -173,8 +173,3 @@ export PATH=/home/$USER/Protobuf/bin${PATH:+:${PATH}}
 
 sudo apt-get install libcudnn8=8.2.1.*-1+cuda11.3
 sudo apt-get install libcudnn8-dev=8.2.1.*-1+cuda11.3
-
-export PATH=/usr/local/cuda-11.3/bin:$PATH
-
-sudo apt-get install libxkbcommon-x11-0
-sudo apt install libxcb-xinerama0
