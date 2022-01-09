@@ -90,7 +90,7 @@ wget -O /home/$USER/TensorFlow/scripts/Demo_Objekterkennung.py https://raw.githu
 python /home/$USER/TensorFlow/scripts/Demo_Objekterkennung.py
 
 cd /home/$USER/TensorFlow
-mkdir pre-trained-models scripts workspaces workspaces/training_demo workspaces/training_demo/annotations workspaces/training_demo/exported-models workspaces/training_demo/images workspaces/training_demo/images/detect workspaces/training_demo/images/detections workspaces/training_demo/images/images-to-detect workspaces/training_demo/images/test workspaces/training_demo/images/train workspaces/training_demo/model-config-files workspaces/training_demo/trained-models && cd workspaces/training_demo && touch README.md && cd /home/$USER/TensorFlow
+mkdir pre-trained-models scripts workspaces workspaces/training_demo workspaces/training_demo/annotations workspaces/training_demo/exported-models workspaces/training_demo/images workspaces/training_demo/images/detect workspaces/training_demo/images/images-to-detect workspaces/training_demo/images/test workspaces/training_demo/images/train workspaces/training_demo/model-config-files workspaces/training_demo/trained-models && cd workspaces/training_demo && touch README.md && cd /home/$USER/TensorFlow
 
 pip install scikit-image
 
