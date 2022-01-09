@@ -96,7 +96,7 @@ pip install scikit-image
 
 wget -O /home/$USER/TensorFlow/scripts/resize_images.py https://github.com/Katschka/Object-Detection-Tutorial/raw/main/scripts/resize_images.py
 
-wget -O /home/$USER/TensorFlow/workspaces/training_demo/images/Trainingsdaten.zip https://github.com/Katschka/Object-Detection-Tutorial/blob/dce52e542dd97792e165843f2f020b7dcf81955a/images/sweets%20low%20resolution%20by%20Rami%20Alkhooli.zip
+wget -O /home/$USER/TensorFlow/workspaces/training_demo/images/Trainingsdaten.zip https://github.com/Katschka/Object-Detection-Tutorial/blob/main/images/sweets%20low%20resolution%20by%20Rami%20Alkhooli.zip
 cd /home/$USER/TensorFlow/workspaces/training_demo/images && unzip Trainingsdaten.zip && rm Trainingsdaten.zip
 
 pip install labelImg
