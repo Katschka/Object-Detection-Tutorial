@@ -1,0 +1,94 @@
+$ conda activate ai-ve
+$ cd /home/dennis/TensorFlow/workspaces/[WORKSPACE]
+
+/// choose model to use from pre-trained models
+/// adjust the [WORKSPACE]-name in commands - using replace (ctrl + h) is recommended
+/// do not forget to move/ update the config-file within the workspace
+
+
+/// to add another model download it from the model zoo and move it to pre-trained-models
+/// copy one set of commands and replace model names in copied set with name of downloaded model
+
+
+
+
+/// efficientdet_d1_coco17_tpu-32
+
+$   python model_main_tf2.py --model_dir=trained-models/efficientdet_d1_coco17_tpu-32 --pipeline_config_path=model-config-files/efficientdet_d1_coco17_tpu-32/pipeline.config
+$   tensorboard --logdir=trained-models/efficientdet_d1_coco17_tpu-32
+$   python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/efficientdet_d1_coco17_tpu-32/pipeline.config --trained_checkpoint_dir trained-models/efficientdet_d1_coco17_tpu-32 --output_directory exported-models/efficientdet_d1_coco17_tpu-32
+$   python /home/$USER/TensorFlow/scripts/trained_object_detection.py -m /home/$USER/TensorFlow/workspaces/[WORKSPACE]/exported-models/efficientdet_d1_coco17_tpu-32/saved_model -i /home/$USER/TensorFlow/workspaces/[WORKSPACE]/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/[WORKSPACE]/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/[workspace]/images/detections/efficientdet_d1_coco17_tpu-32
+
+
+/// faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8
+
+$   python model_main_tf2.py --model_dir=trained-models/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8 --pipeline_config_path=model-config-files/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8/pipeline.config
+$   tensorboard --logdir=trained-models/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8
+$   python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8 --output_directory exported-models/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8
+$   python /home/$USER/TensorFlow/scripts/trained_object_detection.py -m /home/$USER/TensorFlow/workspaces/[WORKSPACE]/exported-models/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8/saved_model -i /home/$USER/TensorFlow/workspaces/[WORKSPACE]/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/[WORKSPACE]/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/[workspace]/images/detections/faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8
+
+
+/// faster_rcnn_resnet50_v1_640x640_coco17_tpu-8
+
+$   python model_main_tf2.py --model_dir=trained-models/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8 --pipeline_config_path=model-config-files/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8/pipeline.config
+$   tensorboard --logdir=trained-models/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8
+$   python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8 --output_directory exported-models/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8
+$   python /home/$USER/TensorFlow/scripts/trained_object_detection.py -m /home/$USER/TensorFlow/workspaces/[WORKSPACE]/exported-models/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8/saved_model -i /home/$USER/TensorFlow/workspaces/[WORKSPACE]/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/[WORKSPACE]/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/[workspace]/images/detections/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8
+
+
+/// faster_rcnn_resnet101_v1_640x640_coco17_tpu-8
+
+$   python model_main_tf2.py --model_dir=trained-models/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8 --pipeline_config_path=model-config-files/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8/pipeline.config
+$   tensorboard --logdir=trained-models/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8
+$   python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8 --output_directory exported-models/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8
+$   python /home/$USER/TensorFlow/scripts/trained_object_detection.py -m /home/$USER/TensorFlow/workspaces/[WORKSPACE]/exported-models/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8/saved_model -i /home/$USER/TensorFlow/workspaces/[WORKSPACE]/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/[WORKSPACE]/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/[workspace]/images/detections/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8
+
+
+/// faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8
+
+$   python model_main_tf2.py --model_dir=trained-models/faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8 --pipeline_config_path=model-config-files/faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8/pipeline.config
+$   tensorboard --logdir=trained-models/faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8
+$   python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8 --output_directory exported-models/faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8
+$   python /home/$USER/TensorFlow/scripts/trained_object_detection.py -m /home/$USER/TensorFlow/workspaces/[WORKSPACE]/exported-models/faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8/saved_model -i /home/$USER/TensorFlow/workspaces/[WORKSPACE]/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/[WORKSPACE]/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/[workspace]/images/detections/faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8
+
+
+/// ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8
+
+$   python model_main_tf2.py --model_dir=trained-models/ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8 --pipeline_config_path=model-config-files/ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8/pipeline.config
+$   tensorboard --logdir=trained-models/ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8
+$   python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8 --output_directory exported-models/ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8
+$   python /home/$USER/TensorFlow/scripts/trained_object_detection.py -m /home/$USER/TensorFlow/workspaces/[WORKSPACE]/exported-models/ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8/saved_model -i /home/$USER/TensorFlow/workspaces/[WORKSPACE]/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/[WORKSPACE]/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/[workspace]/images/detections/ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8
+
+
+/// ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8
+
+$   python model_main_tf2.py --model_dir=trained-models/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8 --pipeline_config_path=model-config-files/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8/pipeline.config
+$   tensorboard --logdir=trained-models/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8
+$   python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8 --output_directory exported-models/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8
+$   python /home/$USER/TensorFlow/scripts/trained_object_detection.py -m /home/$USER/TensorFlow/workspaces/[WORKSPACE]/exported-models/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8/saved_model -i /home/$USER/TensorFlow/workspaces/[WORKSPACE]/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/[WORKSPACE]/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/[workspace]/images/detections/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8
+
+
+/// ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
+
+$   python model_main_tf2.py --model_dir=trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8 --pipeline_config_path=model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config
+$   tensorboard --logdir=trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
+$   python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8 --output_directory exported-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
+$   python /home/$USER/TensorFlow/scripts/trained_object_detection.py -m /home/$USER/TensorFlow/workspaces/[WORKSPACE]/exported-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/saved_model -i /home/$USER/TensorFlow/workspaces/[WORKSPACE]/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/[WORKSPACE]/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/[workspace]/images/detections/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
+
+
+/// ssd_resnet101_v1_fpn_640x640_coco17_tpu-8
+
+$   python model_main_tf2.py --model_dir=trained-models/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8 --pipeline_config_path=model-config-files/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8/pipeline.config
+$   tensorboard --logdir=trained-models/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8
+$   python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8 --output_directory exported-models/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8
+$   python /home/$USER/TensorFlow/scripts/trained_object_detection.py -m /home/$USER/TensorFlow/workspaces/[WORKSPACE]/exported-models/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8/saved_model -i /home/$USER/TensorFlow/workspaces/[WORKSPACE]/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/[WORKSPACE]/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/[workspace]/images/detections/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8
+
+
+/// ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8
+
+$   python model_main_tf2.py --model_dir=trained-models/ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8 --pipeline_config_path=model-config-files/ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8/pipeline.config
+$   tensorboard --logdir=trained-models/ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8
+$   python exporter_main_v2.py --input_type image_tensor --pipeline_config_path model-config-files/ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8/pipeline.config --trained_checkpoint_dir trained-models/ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8 --output_directory exported-models/ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8
+$   python /home/$USER/TensorFlow/scripts/trained_object_detection.py -m /home/$USER/TensorFlow/workspaces/[WORKSPACE]/exported-models/ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8/saved_model -i /home/$USER/TensorFlow/workspaces/[WORKSPACE]/images/images-to-detect -l /home/$USER/TensorFlow/workspaces/[WORKSPACE]/annotations/label_map.pbtxt -o /home/$USER/TensorFlow/workspaces/[workspace]/images/detections/ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8
+
+
